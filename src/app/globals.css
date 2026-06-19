@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans, system-ui);
+  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+article {
+  font-size: 1rem;
+  line-height: 1.875;
+  color: #18181b;
+}
+
+article h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #09090b;
+}
+
+article h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #18181b;
+}
+
+article p {
+  margin-bottom: 1.25rem;
+}
+
+article blockquote {
+  border-left: 2px solid #d4d4d8;
+  padding-left: 1rem;
+  color: #52525b;
+  margin: 1.5rem 0;
+}
+
+article strong {
+  font-weight: 600;
+  color: #09090b;
+}
+
+article a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
